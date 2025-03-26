@@ -1,0 +1,61 @@
+.sobre{
+    min-height: 60vh;
+}
+
+.my-title{
+    color: #333;
+    font-weight: 700;
+}
+
+.my-mt{
+    margin-top: 100px;
+}
+
+.nav-item a{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bg-blue-2{
+    background-color: #ffff;
+}
+
+.icon{
+    font-size: 60px;
+    color: #3163a5;
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card{
+    transition: .5s;
+}
+
+.card:hover{
+    background-color: #d3d0d0;
+}
+
+.card:hover .icon{
+    transform: scale(1.5);
+}
+
+.icon-social{
+    font-size:2rem;
+    color:#3163a5;
+    transition: .5s;
+}
+
+.icon-social:hover{
+    color:#f00;
+}
+
+textarea{
+    resize: none;
+    height: 130px;
+}
+
+@media (max-width: 768px) {
+    #sobre{
+        text-align: center;
+    }
+}
